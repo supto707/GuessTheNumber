@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number Game</h1>
+        <button id="startButton" class="start-button">Start the Game</button>
+        <div id="options" class="options">
+            <p>Select a range:</p>
+            <button id="range10" class="range-button">Guess the number between 1-10</button>
+            <button id="range50" class="range-button">Guess the number between 1-50</button>
+            <button id="range100" class="range-button">Guess the number between 1-100</button>
+        </div>
+        <div id="game" class="game" style="display: none;">
+<!-- Add a Back button inside the "game" div -->
+
+    <button id="backButton" class="back-button">Back to Options</button>
+    <!-- Rest of the game content -->
+
+
+            <p>Guess a number:</p>
+            <input type="number" id="guessInput" class="guess-field">
+            <input type="submit" value="Submit Guess" class="guess-submit">
+            <p class="message"></p>
+            <p class="attempts">Attempts: <span id="attempts">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

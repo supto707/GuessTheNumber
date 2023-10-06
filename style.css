@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.start-button, .range-button, .guess-submit {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.start-button:hover, .range-button:hover, .guess-submit:hover {
+    background-color: #0056b3;
+}
+
+.options {
+    display: none;
+    margin-top: 20px;
+}
+
+.range-button {
+    margin: 10px 0;
+}
+
+.game {
+    display: none;
+    margin-top: 20px;
+}
+
+.guess-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.attempts {
+    font-size: 16px;
+    color: #777;
+}
+
+.attempts span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add styling for the Back button */
+.back-button {
+    padding: 10px 20px;
+    background-color: #777; /* You can choose your own color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.back-button:hover {
+    background-color: #555; /* Change color on hover */
+}
+
+/* Change the background color */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Customize button colors */
+.start-button, .range-button, .guess-submit {
+    background-color: #FF5733; /* Change button color to orange */
+    color: #fff;
+}
+
+.start-button:hover, .range-button:hover, .guess-submit:hover {
+    background-color: #E44D28; /* Change button color on hover */
+}
+
+
